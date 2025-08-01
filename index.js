@@ -1,6 +1,6 @@
 
 //create a function of game() which will have game logic
-function game(){
+function playGame(){
 //ask user for their choice of rock paper scissor
 //store that in a value playerChoicefunction game(){
     const playerChoice = prompt("Choose rock paper or scissors");
@@ -66,5 +66,9 @@ function game(){
             }
     }    
 }
-game();
+
+console.log("You will play 5 times");
+for (let i = 0; i < 5; i++){
+    playGame();
+}
 
